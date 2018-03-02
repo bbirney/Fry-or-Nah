@@ -1,0 +1,50 @@
+img {
+  height:90%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:15px;
+  min-width:100%;
+  max-width:100%
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height:96.5%;
+}
+
+.container {
+    height:100%;
+    width:100%;
+}
+
+.table {
+  border: 1px solid #d9d9d9 !important;
+}
+
+.jumbotron {
+  cursor: pointer !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  border-radius:15px !important;
+  max-width:75% !important;
+  min-height:90% !important;
+  line-height:50% !important;
+}
+
+.middle {
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.fill{
+    height:100%;
+    min-height:100%;
+    padding:0px;
+    line-height:50% !important;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}

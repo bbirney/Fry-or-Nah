@@ -1,0 +1,40 @@
+<!Doctype HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Choose if you want to fry someone">
+  <meta name="keywords" content="cs, it, usna, fry, ben, birney">
+  <meta name="author" content="Ben Birney">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fry or Nah</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="web/bootstrap/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="web/default.css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="lib/scripts.js"></script>
+</head>
+
+<body onload="universalAjax(null, putPicture, 'api/picture', 'get', 'output1');">
+  <br>
+  <div class="row container">
+    <div class="col-md-4 fill">
+      <div id="no" class="jumbotron text-center alert-danger">
+        <h3>No</h3>
+      </div>
+    </div>
+    <div id="output1" class="col-md-4 fill"></div>
+    <div class="col-md-4 fill">
+      <div id="yes" class="jumbotron text-center alert-success">
+        <h3>Yes</h3>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br/>
+</body>
+</html>
